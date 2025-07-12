@@ -21,6 +21,83 @@ git clone https://github.com/your-username/motion-bank-clone.git
 cd motion-bank-clone
 ```
 
+### 🔧 Prerequisites
+
+- Node.js ≥ 16
+- npm ≥ 8 (or `pnpm` / `yarn` if preferred)
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the development server
+
+```bash
+npm run dev
+```
+
+> Open your browser and go to `http://localhost:5173`
+
+---
+
+## 🧱 Project Structure
+
+```bash
+src/
+├── assets/              # Static images and SVGs
+├── components/          # Reusable UI components
+├── pages/               # Main route pages (Home, Blog, FAQ, etc.)
+├── router/              # React Router configuration
+├── App.tsx              # App entry component
+├── main.tsx             # Vite entry point
+└── index.css            # Global Tailwind styles
+```
+
+---
+
+## 🧼 Scripts
+
+```bash
+npm run dev      # Start dev server
+npm run build    # Build for production
+npm run preview  # Preview production build
+```
+
+---
+
+## 📝 Notes
+
+- All pages are currently **Tailwind-styled placeholders**
+- Routing is managed via `react-router-dom`
+- Components like `bannerslider` have been merged and redundant files removed
+
+---
+
+
+
+# 🏦 Motion Bank Clone (React + Vite + Tailwind)
+
+This is a clone of the Motion Bank landing page built with:
+
+- ⚛️ React (TypeScript)
+- ⚡ Vite
+- 💨 TailwindCSS
+- 📦 npm
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repo or extract the ZIP
+
+```bash
+git clone https://github.com/your-username/motion-bank-clone.git
+# or simply extract the ZIP you received
+cd motion-bank-clone
+```
+
 ### 2. Install dependencies
 
 Make sure you have **Node.js** installed (recommend ≥ v16). Then run:
